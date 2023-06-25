@@ -13,14 +13,3 @@ data = pd.DataFrame({'human': data['whoAmI'] == 'human',
                'robot': data['whoAmI'] == 'robot'}).astype(int).head(10)
 data.head(10)
          
-# human	robot
-# 0	0	1
-# 1	1	0
-# 2	1	0
-# 3	1	0
-# 4	1	0
-# 5	0	1
-# 6	0	1
-# 7	0	1
-# 8	0	1
-# 9	1	0
